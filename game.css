@@ -1,14 +1,16 @@
 body
 {
-	background: lightblue;
+	background:cyan;
+	
 }
 
 	.login_div1 , .login_div2
 	{
-		background: white;
+		background:darkcyan;
 		padding: 10px;
 		float: none;
 		border-radius: 15px;
+		color: white;
 	}
 
 
@@ -16,6 +18,7 @@ body
 {
 	display: inline-block;
 	margin-left: 20px;
+	
 }
 #word
 {
@@ -33,4 +36,8 @@ border-top: 10px solid #AA4465;
 padding: 10px;
 float: none;
 text-align: left;
+}
+#login{
+	background-color: darkcyan;
+	color: white;
 }
